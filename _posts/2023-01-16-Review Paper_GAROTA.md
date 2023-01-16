@@ -2,7 +2,8 @@
 title: "GAROTA: Generalized Active Root-Of-Trust Architecture (for Tiny Embedded Devices)"
 last_modified_at: 2023-01-16T16:20:02-05:00
 categories:
-  - Review Papers 
+  - 논문
+permalink: /papers/
 tags:
   - Post Formats
   - readability

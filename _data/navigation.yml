@@ -2,11 +2,27 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Category"
   #   url: /TIL/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-category:
+  - title: "Category"
+    children:
+      - title: "> 논문"
+        url: "/papers"
+      - title: "> C/C++"
+        url: "/C_C++"
+      - title: "> 리눅스(linux)"
+        url: "/linux"
+      - title: "> 알고리즘"
+        url: "/algorithm"
+      - title: "> 보안"
+        url: "/security"
+      - title: "> 자율주행"
+      url: "/자율주행"
