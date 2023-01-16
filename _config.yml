@@ -30,9 +30,12 @@ masthead_title           : "굴러가는 바퀴(Developer Blog)" # overrides the
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider    : "disqus"                                # comment 처리 사이트 명칭 기재
+              # false (default), "disqus", "discourse", "facebook"
+              # "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname : "kimbongsik-github-io"                    # disqus의 shortname 기재
+              # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -94,9 +97,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-F9FHHF5TSK"
     anonymize_ip         : # true, false (default)
 
 
@@ -121,7 +124,7 @@ author:
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "https://github.com/"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/Kimbongsik"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -285,6 +288,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true                                    # comment 를 주석 해지 후 true로 수정하기
       share: true
       related: true
+  
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
