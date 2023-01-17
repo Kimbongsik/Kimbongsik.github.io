@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Category"
+    url: /categories/
   - title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Category"
@@ -15,11 +15,13 @@ sidebar-category:
   - title: "Category"
     children:
       - title: "> 논문"
-        url: "/papers"
+        url: "/categories/papers/"
       - title: "> C/C++"
         url: "/C_C++"
+      - title: "> 임베디드"
+        url: "/임베디드"
       - title: "> 리눅스(linux)"
-        url: "/linux"
+        url: "/categories/linux/"
       - title: "> 알고리즘"
         url: "/algorithm"
       - title: "> 보안"
