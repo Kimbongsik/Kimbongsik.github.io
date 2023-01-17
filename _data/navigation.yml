@@ -25,4 +25,4 @@ sidebar-category:
       - title: "> 보안"
         url: "/security"
       - title: "> 자율주행"
-      url: "/자율주행"
+        url: "/자율주행"
