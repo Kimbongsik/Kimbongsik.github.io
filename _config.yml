@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "유오알비(U-ORB)"
   avatar           : "/assets/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부하는 사람" # "I am an **amazing** person."
+  bio              : "오늘도 바퀴는 열심히 굴러갑니다" # "I am an **amazing** person."
   location         : "Republic of Korea"
   email            : #생략
   links:
@@ -217,12 +217,20 @@ sass:
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# # Outputting
+# permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+
+pagination:
+    enabled: true
+    per_page: 5     # 5개씩 보여주기
+    limit: 0
+    sort_field: "date"
+    sort_reverse: true
+    title: ':title'     # 타이틀 형식
 
 # Plugins (previously gems:)
 plugins:
