@@ -5,11 +5,7 @@ categories:
   - C_C++
 
 tags:
-  - C언어
-  - C++
-  - 포인터
-  - 배열
-
+  - C/C++
 ---
 
 <aside>
