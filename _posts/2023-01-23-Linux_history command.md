@@ -19,11 +19,13 @@ history는 GNU에서 지원하는 라이브러리다.
 
 history는 이전에 사용했던 명령어들의 리스트들을 파일에 저장해두었다가 보여준다. man 명령어를 통해 확인해보면 bash 셸에서 지원한다는 것을 확인할 수 있었다. history는 유저별로 자신의 히스토리 파일을 가지고 있고, 홈 디렉토리에 숨김 파일로 위치해 있다. 
 
-![Untitled1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/040fd5f8-40b7-42ac-9add-e5d1a6f70049/Untitled.png)<img src='https://s3-us-west-2.amazonaws.com/secure.notion-static.com/040fd5f8-40b7-42ac-9add-e5d1a6f70049/Untitled.png'>
+![2](https://user-images.githubusercontent.com/63995044/214063544-4a2751e4-c3fb-401f-88cd-d68badbc6d70.png)<img src='https://user-images.githubusercontent.com/63995044/214063544-4a2751e4-c3fb-401f-88cd-d68badbc6d70.png'>
+
 
  cat으로 확인해보면 이전에 쳤던 명령어들이 나열되어 있는 것을 볼 수 있다.
 
-![Untitled2](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbe71fd3-5d71-4ff3-96c3-aa1dbdac06b5/Untitled.png)<img src='https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbe71fd3-5d71-4ff3-96c3-aa1dbdac06b5/Untitled.png'>
+![3](https://user-images.githubusercontent.com/63995044/214063679-0a602c6c-20fc-4add-8aa4-5203eb386723.png)<img src='https://user-images.githubusercontent.com/63995044/214063679-0a602c6c-20fc-4add-8aa4-5203eb386723.png'>
+
 
 - HISTFILE : command 저장파일
 - HISTFILESIZE : 히스토리 파일 최대 크기
@@ -40,5 +42,5 @@ history는 이전에 사용했던 명령어들의 리스트들을 파일에 저�
 (→ 파일에 있는 값을 가져와서 history list에 불러오기 때문에, 재부팅 후 history를 쳐도 이력을 확인할 수 있는 것)
 
 <aside>
-💡 참고 사이트: [https://jhnyang.tistory.com/306](https://jhnyang.tistory.com/306)
+💡 참고 사이트: [https://jhnyang.tistory.com/306]
 </aside>

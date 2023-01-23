@@ -13,7 +13,6 @@ tags:
   - 보안 
 ---
 
-# ****GAROTA: Generalized Active Root-Of-Trust Architecture (for Tiny Embedded Devices)****
 
 *용어
 
@@ -22,9 +21,9 @@ tags:
 - DMEM: Data memory 휘발성(
 - PMEM: Program memory 비휘발성(스택, 힙 저장)
 
-*어떻게 TEE를 안 쓰는가?
-
-*왜 RoT라고 하는가? 이 안전한 영역이 어떤 방식으로 보장되는가?
+*읽기 전 고려사항
+- 어떻게 TEE를 안 쓰는가?
+- 왜 RoT라고 하는가? 이 안전한 영역이 어떤 방식으로 보장되는가?
 
 # Abstract
 
@@ -87,7 +86,7 @@ tags:
 
 # GAROTA Overview
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff4b22c4-dc00-439b-8353-e8b9ac5a6bf3/Untitled.png)
+![1](https://user-images.githubusercontent.com/63995044/214065706-3ce2c5af-38be-4dae-88b3-28062ef1a438.png)<img src='https://user-images.githubusercontent.com/63995044/214065706-3ce2c5af-38be-4dae-88b3-28062ef1a438.png'>
 
 - 목표
     - 신뢰할 수 있는 소프트웨어 실행 파일로 구현된 미리 정의된 기능(F)의 이벤트적 실행을 보장함
@@ -114,7 +113,7 @@ tags:
     - 해당 하위 모듈은 모델 확인 기반 형식 검증과 LTL 컴퓨터 확인 증명의 조합을 사용해 안전하게 구성되고 표시됨
     - GAROTA 모듈식 디자인은 검증 가능성과 최소화를 가능하게 해 하드웨어 오버가 적음
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7650cdb-320e-4b59-a767-eab8f31596bc/Untitled.png)
+    ![2](https://user-images.githubusercontent.com/63995044/214065716-f1f38508-4d02-47ec-984d-954586179221.png)<img src='https://user-images.githubusercontent.com/63995044/214065716-f1f38508-4d02-47ec-984d-954586179221.png'>
         
     - 그림2: GAROTA는 필수 보안 속성에 대한 위반을 감지하기 위해 일련의 CPU신호를 모니터링하는 하드웨어 구성 요소로 구현됨
     - 동작이나 명령어 세트를 수정하는 등 CPU 코어 구현을 방해하지 않음
@@ -126,7 +125,7 @@ tags:
 
 - LTL: 선형 시제 논리 (논리 연산~)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6ff443a-46d6-449b-a0a0-68457c57f5e6/Untitled.png)
+![3](https://user-images.githubusercontent.com/63995044/214065723-62f30a63-419f-47b5-b041-aa4464f0f3a8.png)<img src='https://user-images.githubusercontent.com/63995044/214065723-62f30a63-419f-47b5-b041-aa4464f0f3a8.png'>
 
 ## 4.2 Notation, Machine Model, & Assumptions
 
@@ -176,7 +175,7 @@ tags:
 
 *이지창: 부분집합
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/646b996a-768b-4961-8e9e-7f2f3aef6b3c/Untitled.png)
+![4](https://user-images.githubusercontent.com/63995044/214065731-b3671b7a-d2c2-4ee6-a5e6-c7cc8557ff01.png)<img src='https://user-images.githubusercontent.com/63995044/214065731-b3671b7a-d2c2-4ee6-a5e6-c7cc8557ff01.png'>
 
 (1): 메모리 수정(주소: X)에 대한 수정은 CPU 또는 DMA를 통해 이루어짐
 

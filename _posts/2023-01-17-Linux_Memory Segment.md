@@ -15,7 +15,7 @@ tags:
 
 예를 들어 CPU는 데이터 세그먼트의 데이터를 읽을 수 있어야 하기 때문에 이 영역에는 읽기 권한이 부여됨. 반면 실행 대상이 아니므로 실행 권한은 부여되지 않음. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb690d02-e277-4551-b115-26aea8988ce4/Untitled.png)
+![1](https://user-images.githubusercontent.com/63995044/214064817-24f0803b-3476-4aa1-8cbc-32adcb3b6b98.png)<img src='https://user-images.githubusercontent.com/63995044/214064817-24f0803b-3476-4aa1-8cbc-32adcb3b6b98.png'>
 
 ### 코드 세그먼트(code secment)
 
