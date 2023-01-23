@@ -15,16 +15,16 @@ tags:
 
 history는 GNU에서 지원하는 라이브러리다.
 
-![1](https://user-images.githubusercontent.com/63995044/214060667-64eae1e6-402f-48e5-8937-d598d332a13b.png)<img src='https://user-images.githubusercontent.com/63995044/214060667-64eae1e6-402f-48e5-8937-d598d332a13b.png'>
+![1](https://user-images.githubusercontent.com/63995044/214060667-64eae1e6-402f-48e5-8937-d598d332a13b.png)<p alighn="center"><img src='https://user-images.githubusercontent.com/63995044/214060667-64eae1e6-402f-48e5-8937-d598d332a13b.png'></p>
 
 history는 이전에 사용했던 명령어들의 리스트들을 파일에 저장해두었다가 보여준다. man 명령어를 통해 확인해보면 bash 셸에서 지원한다는 것을 확인할 수 있었다. history는 유저별로 자신의 히스토리 파일을 가지고 있고, 홈 디렉토리에 숨김 파일로 위치해 있다. 
 
-![2](https://user-images.githubusercontent.com/63995044/214063544-4a2751e4-c3fb-401f-88cd-d68badbc6d70.png)<img src='https://user-images.githubusercontent.com/63995044/214063544-4a2751e4-c3fb-401f-88cd-d68badbc6d70.png'>
+![2](https://user-images.githubusercontent.com/63995044/214063544-4a2751e4-c3fb-401f-88cd-d68badbc6d70.png)<p alighn="center"><img src='https://user-images.githubusercontent.com/63995044/214063544-4a2751e4-c3fb-401f-88cd-d68badbc6d70.png'></p>
 
 
  cat으로 확인해보면 이전에 쳤던 명령어들이 나열되어 있는 것을 볼 수 있다.
 
-![3](https://user-images.githubusercontent.com/63995044/214063679-0a602c6c-20fc-4add-8aa4-5203eb386723.png)<img src='https://user-images.githubusercontent.com/63995044/214063679-0a602c6c-20fc-4add-8aa4-5203eb386723.png'>
+![3](https://user-images.githubusercontent.com/63995044/214063679-0a602c6c-20fc-4add-8aa4-5203eb386723.png)<p alighn="center"><img src='https://user-images.githubusercontent.com/63995044/214063679-0a602c6c-20fc-4add-8aa4-5203eb386723.png'></p>
 
 
 - HISTFILE : command 저장파일

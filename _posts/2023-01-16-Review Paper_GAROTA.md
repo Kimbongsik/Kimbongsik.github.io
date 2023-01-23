@@ -113,7 +113,7 @@ tags:
     - 해당 하위 모듈은 모델 확인 기반 형식 검증과 LTL 컴퓨터 확인 증명의 조합을 사용해 안전하게 구성되고 표시됨
     - GAROTA 모듈식 디자인은 검증 가능성과 최소화를 가능하게 해 하드웨어 오버가 적음
         
-    ![2](https://user-images.githubusercontent.com/63995044/214065716-f1f38508-4d02-47ec-984d-954586179221.png)<img src='https://user-images.githubusercontent.com/63995044/214065716-f1f38508-4d02-47ec-984d-954586179221.png'>
+    ![2](https://user-images.githubusercontent.com/63995044/214065716-f1f38508-4d02-47ec-984d-954586179221.png)<p alighn="center"><img src='https://user-images.githubusercontent.com/63995044/214065716-f1f38508-4d02-47ec-984d-954586179221.png'></p>
         
     - 그림2: GAROTA는 필수 보안 속성에 대한 위반을 감지하기 위해 일련의 CPU신호를 모니터링하는 하드웨어 구성 요소로 구현됨
     - 동작이나 명령어 세트를 수정하는 등 CPU 코어 구현을 방해하지 않음
@@ -125,7 +125,7 @@ tags:
 
 - LTL: 선형 시제 논리 (논리 연산~)
 
-![3](https://user-images.githubusercontent.com/63995044/214065723-62f30a63-419f-47b5-b041-aa4464f0f3a8.png)<img src='https://user-images.githubusercontent.com/63995044/214065723-62f30a63-419f-47b5-b041-aa4464f0f3a8.png'>
+![3](https://user-images.githubusercontent.com/63995044/214065723-62f30a63-419f-47b5-b041-aa4464f0f3a8.png)<p alighn="center"><img src='https://user-images.githubusercontent.com/63995044/214065723-62f30a63-419f-47b5-b041-aa4464f0f3a8.png'></p>
 
 ## 4.2 Notation, Machine Model, & Assumptions
 
@@ -175,7 +175,7 @@ tags:
 
 *이지창: 부분집합
 
-![4](https://user-images.githubusercontent.com/63995044/214065731-b3671b7a-d2c2-4ee6-a5e6-c7cc8557ff01.png)<img src='https://user-images.githubusercontent.com/63995044/214065731-b3671b7a-d2c2-4ee6-a5e6-c7cc8557ff01.png'>
+![4](https://user-images.githubusercontent.com/63995044/214065731-b3671b7a-d2c2-4ee6-a5e6-c7cc8557ff01.png)<p alighn="center"><img src='https://user-images.githubusercontent.com/63995044/214065731-b3671b7a-d2c2-4ee6-a5e6-c7cc8557ff01.png'></p>
 
 (1): 메모리 수정(주소: X)에 대한 수정은 CPU 또는 DMA를 통해 이루어짐
 
