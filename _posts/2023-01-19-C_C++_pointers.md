@@ -14,8 +14,9 @@ tags:
 </aside>
 
 >[https://dev-ku.tistory.com/101]
-
 >[https://reakwon.tistory.com/33]
+
+
 # 함수 포인터
 
 > **개념**
