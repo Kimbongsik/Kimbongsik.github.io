@@ -1,6 +1,6 @@
 ---
 title: "[C/C++] 바인딩 타임(Binding time)"
-last_modified_at: 2023-01-27T16:00:02-05:00
+last_modified_at: 2023-01-27T16:00:00-05:00
 categories:
   - C_C++
 
