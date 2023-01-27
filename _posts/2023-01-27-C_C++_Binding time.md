@@ -100,6 +100,6 @@ ex) 정수의 자릿수, 실수의 유효 숫자 개수 등
 프로그램을 실행하면서 변수의 값을 확정할 때 걸리는 시간.
 
 <aside>
-💡 참고 사이트: [https://genesis8.tistory.com/56,](https://genesis8.tistory.com/56) [https://redcarrot.tistory.com/40](https://redcarrot.tistory.com/40)
+💡 참고 사이트: [https://genesis8.tistory.com/56,](https://genesis8.tistory.com/56)
 
 </aside>
