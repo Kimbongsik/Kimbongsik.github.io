@@ -92,3 +92,66 @@ int main(){
 → 최대 힙과 최소 힙
 
 → 최대 힙의 루트 노드가 중간값이 되게 만들어야 함
+
+
+
+### 코드(정답)
+
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int N;
+int num[100000];
+int answer[100000];
+static int cnt = 1;
+
+void swap(priority_queue<int, vector<int>, greater<int>>& min_heap, priority_queue<int, vector<int>, less<int>>& max_heap)
+{
+	if (max_heap.top() > min_heap.top()) {
+		int min_top = min_heap.top();
+		int max_top = max_heap.top();
+		max_heap.pop();
+		min_heap.pop();
+		max_heap.push(min_top);
+		min_heap.push(max_top);
+	}
+}
+
+int main()
+{
+	cin >> N;
+
+	priority_queue<int, vector<int>, greater<int>> min_heap;
+	priority_queue<int, vector<int>, less<int>> max_heap;
+
+	for (int i = 0; i < N; i++)
+	{
+		cin >> num[i];
+		if (i == 0) {
+			max_heap.push(num[i]);
+			answer[0] = max_heap.top();
+			cnt++;
+		}
+		
+		else if (cnt % 2 == 0) {
+			min_heap.push(num[i]);
+			swap(min_heap, max_heap);
+			answer[i] = max_heap.top();
+			cnt++;
+		}
+
+		else if (cnt % 2 == 1) {
+			max_heap.push(num[i]);
+			swap(min_heap, max_heap);
+			answer[i] = max_heap.top();
+			cnt++;
+		}
+	
+	}
+
+	for (int j = 0; j < N; j++)
+		cout << answer[j] << '\n';
+}
+```
