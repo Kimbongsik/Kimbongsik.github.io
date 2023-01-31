@@ -27,4 +27,6 @@ sidebar-category:
       - title: "> 보안"
         url: "/categories/security/"
       - title: "> 자율주행"
-        url: "/categories/auto"
+        url: "/categories/automobile/"
+      - title: "> 웹(Web)"
+        url: "/categories/web/"
