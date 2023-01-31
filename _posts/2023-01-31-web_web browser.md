@@ -21,7 +21,7 @@ tags:
 
 URL(Uniform Resource Locator)의 약자로, 웹에 있는 리소스의 위치를 표현하는 문자열. 브라우저로 특정 웹 리소스에 접근할 때, URL을 사용하여 이를 서버에게 요청함. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43357f49-52b0-433d-ba89-6e94aac1ad79/Untitled.png)
+![1](https://user-images.githubusercontent.com/63995044/215790726-00440051-dd10-4826-a617-17fd7fa6e860.png)
 
 - Scheme : 웹 서버와 어떤 프로토콜로 통신할 것인가?
 - Host : 접속할 웹 서버의 주소에 대한 정보
