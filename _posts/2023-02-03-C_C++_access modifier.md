@@ -1,6 +1,6 @@
 ---
 title: "[C/C++] 접근 지정자(access modifier)"
-last_modified_at: 2023-01-16T16:20:02-05:00
+last_modified_at: 2023-02-03T16:20:02-05:00
 categories:
   - C_C++
 
