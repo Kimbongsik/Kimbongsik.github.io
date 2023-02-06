@@ -19,7 +19,7 @@ sidebar-category:
       - title: "> C/C++"
         url: "/categories/C_C++/"
       - title: "> 임베디드"
-        url: "/임베디드"
+        url: "/categories/embedded/"
       - title: "> 리눅스(linux)"
         url: "/categories/linux/"
       - title: "> 알고리즘"
