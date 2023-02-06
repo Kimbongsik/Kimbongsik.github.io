@@ -1,5 +1,5 @@
 ---
-title: "[임베디드/MCU] 소프트웨어 개발"
+title: "[임베디드] MCU용 소프트웨어 개발"
 last_modified_at: 2023-02-06T16:20:02-05:00
 categories:
   - embedded
