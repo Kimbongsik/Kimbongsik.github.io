@@ -1,10 +1,3 @@
-<aside>
-💡 해당 포스팅은 isnt님의 블로그(링크: [https://m.blog.naver.com/ilikebigmac/222009981745](https://m.blog.naver.com/ilikebigmac/222009981745))의 포스트를 보고 정리한 내용입니다.
-
-</aside>
-
-# KVM
-
 ---
 title: "[가상화] KVM, QEMU"
 last_modified_at: 2023-02-10T16:20:02-05:00
@@ -14,6 +7,14 @@ categories:
 tags:
   - embedded
 ---
+
+
+<aside>
+💡 해당 포스팅은 isnt님의 블로그(링크: [https://m.blog.naver.com/ilikebigmac/222009981745])의 포스트를 보고 정리한 내용입니다.
+
+</aside>
+
+# KVM
 
 ### KVM의 하이퍼바이저
 
