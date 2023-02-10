@@ -11,8 +11,9 @@ tags:
 
 <aside>
 💡 해당 포스팅은 isnt님의 블로그(링크: [https://m.blog.naver.com/ilikebigmac/222009981745])의 포스트를 보고 정리한 내용입니다.
-
 </aside>
+
+
 
 # KVM
 
@@ -38,6 +39,8 @@ tags:
 - VirtIO: Para Virtualized Driver
     - 가상의 I/O 레이턴시를 감소시키고 호스트와 비슷한 수준까지 thoroughput(처리율)을 증가 시킴
     - 따라서 KVM에서 장치를 붙일 대 기왕이면 VirtIO 타입으로 붙이는 것이 좋음
+
+
 
 # QEMU
 
