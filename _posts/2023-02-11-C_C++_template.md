@@ -90,6 +90,8 @@ int main(void)
 ```
 <br/>
 참고로 <typename T>와 <class T>는 정확히 같은 의미를 갖는다. 그러나 typename을 쓰는 것이 권장된다고 한다. 왜냐하면 class T라고 하면 T에 뭔가 class를 써야할 것처럼 느낄 수 있는 혼동을 방지하기 위해..C++ 위원회에서 typename이라는 이름을 사용하자고 정했다고 한다. 
+
+<br/>
 <br/>
 # 클래스 템플릿(class template)
 
