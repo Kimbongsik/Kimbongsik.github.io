@@ -23,7 +23,7 @@ name                     : "유오알비(U-ORB)"
 description              : "오늘도 바퀴는 열심히 굴러갑니다"
 url                      : "https://Kimbongsik.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Kimbongsik/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Kimbongsik/comment" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/wheel_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "굴러가는 바퀴(Developer Blog)" # overrides the website title displayed in the masthead, use " " for no title
