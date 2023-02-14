@@ -30,7 +30,7 @@ masthead_title           : "굴러가는 바퀴(Developer Blog)" # overrides the
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider    : "utterances"                                # comment 처리 사이트 명칭 기재
+  provider               : "utterances"                                # comment 처리 사이트 명칭 기재
               # false (default), "disqus", "discourse", "facebook"
               # "staticman", "staticman_v2", "utterances", "custom"
   disqus:
