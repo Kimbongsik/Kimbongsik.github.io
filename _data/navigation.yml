@@ -22,6 +22,8 @@ sidebar-category:
         url: "/categories/embedded/"
       - title: "> 리눅스(linux)"
         url: "/categories/linux/"
+      - title: "> CS(운영체제, 컴퓨터 구조 등)"
+        url: "/categories/cs/"
       - title: "> 알고리즘"
         url: "/categories/algorithm/"
       - title: "> 보안"
@@ -30,3 +32,4 @@ sidebar-category:
         url: "/categories/auto/"
       - title: "> 웹(Web)"
         url: "/categories/web/"
+      

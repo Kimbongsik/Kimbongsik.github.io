@@ -20,7 +20,7 @@ title                    : "굴러가는 바퀴(Developer Blog)"
 title_separator          : "-"
 subtitle                 : "임베디드 개발 및 보안" # site tagline that appears below site title in masthead
 name                     : "유오알비(U-ORB)"
-description              : "오늘도 바퀴는 열심히 굴러갑니다"
+description              : "바퀴는 오늘도 열심히 굴러갑니다 (2023년 1월~ 꾸준히 업로드 중)"
 url                      : "https://Kimbongsik.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Kimbongsik/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
