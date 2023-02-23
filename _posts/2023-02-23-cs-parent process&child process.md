@@ -12,11 +12,11 @@ tags:
 ---
 
 ## 부모 프로세스 & 자식 프로세스
-
-![1](https://user-images.githubusercontent.com/63995044/220922993-5f54896b-ab06-455f-9d43-5fc9b61f6d4c.png)
  
 
 한 개의 프로세스는 실행되는 도중에 프로세스를 생성하는 시스템 콜(UNIX에서는 fork() )을 통해 새로운 프로세스들을 생성한다. 이 때 생성하는 프로세스를 부모 프로세스(paraent process)라 하고, 생성된 프로세스를 자식 프로세스(child process)라고 한다. 그래서 자식은 자식을 낳고.. 할 수 있는 구조이기 때문에 트리 모양을 띄게 된다. 
+
+![1](https://user-images.githubusercontent.com/63995044/220925166-c54b06a6-a53f-4fa7-845d-29a741031af9.png)
 
 프로세스는 CPU 타임과 메모리, 파일, 입출력 장치 등의 자원이 필요하기 때문에 부모 프로세스가 자식 프로세스를 생성하게 되면 생성된 자식 프로세스는 운영체제로부터 직접 자원을 제공 받거나 부모 프로세스 자원의 일부를 사용할 수도 있게 된다. 
 
@@ -69,6 +69,7 @@ tags:
 
 <br/>
 <br/>
+
 <aside>
 💡 참고 사이트: [https://4legs-study.tistory.com/37](https://4legs-study.tistory.com/37)
 
