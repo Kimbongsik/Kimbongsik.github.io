@@ -1,5 +1,5 @@
 ---
-title: "논문"
+title: "보안"
 permalink: /categories/security/
 layout: category
 author_profile: true
