@@ -32,4 +32,6 @@ sidebar-category:
         url: "/categories/auto/"
       - title: "> 웹(Web)"
         url: "/categories/web/"
+      - title: "> 네트워크"
+        url: "/categories/network/"
       
