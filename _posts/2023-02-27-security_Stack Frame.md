@@ -44,9 +44,9 @@ int main(void){
 
 <br/>
 
-<center>
-![1](https://user-images.githubusercontent.com/63995044/221567545-a72dc31f-6651-478e-b609-65eac64284a5.png)
-</center>
+
+![1](https://user-images.githubusercontent.com/63995044/221567545-a72dc31f-6651-478e-b609-65eac64284a5.png){: .align-center}
+
 
 스택의 맨 마지막: RET(Return Address)
 
@@ -54,9 +54,9 @@ int main(void){
 
 >main에서 sum 함수 호출 시
 
-<center>
-![2](https://user-images.githubusercontent.com/63995044/221567553-ff92f916-bc23-462b-a273-3d4e5f8b7438.png)
-</center>
+
+![2](https://user-images.githubusercontent.com/63995044/221567553-ff92f916-bc23-462b-a273-3d4e5f8b7438.png){: .align-center}
+
 
 - 빨간색: sum() 호출 이후에 새로 쌓인 sum() 함수의 스택 프레임
 - 파란색: 기존의 main 함수의 스택 프레임
