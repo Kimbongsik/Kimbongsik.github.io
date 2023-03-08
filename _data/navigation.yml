@@ -34,4 +34,6 @@ sidebar-category:
         url: "/categories/web/"
       - title: "> 네트워크"
         url: "/categories/network/"
+      - title: "> 컴파일러"
+        url: "/categories/compiler"
       
