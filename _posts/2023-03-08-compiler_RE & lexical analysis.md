@@ -1,5 +1,5 @@
 ---
-title: "[컴파일러] Lexical Analysis & Regulatr Expression"
+title: "[컴파일러] Lexical Analysis & Regular Expression"
 last_modified_at: 2023-03-08T16:20:02-05:00
 toc: true
 toc_sticky: true
@@ -10,8 +10,6 @@ categories:
 tags:
   - compiler
 ---
-
-<br/>
 
 # Front-end Compilation
 
@@ -58,7 +56,7 @@ Token들의 종류는 아래와 같다.
 
 ## Lexer
 
-![1](https://user-images.githubusercontent.com/63995044/223706511-e15a8a4c-ef28-4665-8ec7-a0755a902b1e.png)
+![2](https://user-images.githubusercontent.com/63995044/223706524-359ae885-19e1-415b-b7ef-0e4429dda165.png)
 
 Lexer는 토큰들의 의미를 분석하는 역할을 수행한다. Lexical Analyze는 string을 토큰화 시키고, 해당 토큰을 Lexer를 거쳐 결과를 분석하는 과정을 통틀어 일컫는 말이다. RE(Regular Expressions)를 통해 프로그램의 토큰을 정의하고, Lexer Generator를 통해 Lexer를 생성한다.
 
@@ -126,9 +124,9 @@ Lexer는 토큰들의 의미를 분석하는 역할을 수행한다. Lexical Ana
 <br/>
 
 - Binary numbers
-    - → (0 | 1)*
+    - (0 &#124; 1)*
 - aa가 항상 포함되는 a와 b로 이루어진 스트링
-    - →(a|b)*aa(a|b)*
+    -  (a &#124; b)* aa (a &#124; b)*
 
 <br/>
 
@@ -140,7 +138,7 @@ Lexical Token을 RE로 표현해보면 아래와 같다.
 | --- | --- |
 | ID | [a-z][a-z0-9]* |
 | NUM | [0-9]+ |
-| REAL | ([0-9]+”.”[0-9]*) | ([0-9]*”.”[0-9]+) |
+| REAL | ([0-9]+”.”[0-9]*) 	&#124; ([0-9]*”.”[0-9]+) |
 | IF | if |
 
 <br/>
@@ -168,8 +166,7 @@ DFA는 string을 “accepts” 또는 “rejects” 된다.
     - string이 상태머신의 마지막 상태에 도달하지 못한 상태
     
 
-![2](https://user-images.githubusercontent.com/63995044/223706524-359ae885-19e1-415b-b7ef-0e4429dda165.png)
-
+![4](https://user-images.githubusercontent.com/63995044/223709186-b205864a-3f44-4a53-bf40-e90059e72caf.png)
 <br/>
 
 위와 같은 상태 머신이 있을 때, string abc를 입력으로 넣으면 어떻게 될까?
