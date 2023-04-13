@@ -1,9 +1,6 @@
 ---
 title: "[자료구조] 단일 연결 리스트(Linked List) 구현"
 last_modified_at: 2023-04-13T16:20:02-05:00
-toc: true
-toc_sticky: true
-toc_label: "목차"
 categories:
   - algorithm
 
