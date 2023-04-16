@@ -40,7 +40,7 @@ NOT, OR, AND, XOR, NOR, NAD, 반가산기, 전가산기, 디코더, 인코더, �
 
 - 3 to 8 디코더의 회로도
 
-![_1](https://user-images.githubusercontent.com/63995044/232320227-76cc28e2-1be2-4f41-a9fb-cadbe8b110d9.png)
+![Untitled](https://user-images.githubusercontent.com/63995044/232321618-9b5d733d-5a18-4797-9e7f-3f31c19be3ac.png)
 
 ## 인코더
 
