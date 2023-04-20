@@ -1,5 +1,5 @@
 ---
-title: "[네트워크] DHCP(Dynamic Host configuration Protocol), IP 주소 자동 할당 설정 방법, IoT 제어 방법"
+title: "[네트워크] DHCP(Dynamic Host Configuration Protocol), IP 주소 자동 할당 설정 방법, IoT 제어 방법"
 last_modified_at: 2023-04-20T16:20:02-05:00
 toc: true
 toc_sticky: true
@@ -11,7 +11,7 @@ tags:
   - network
 ---
 
-## DHCP
+# DHCP(Dynamic Host Configuration Protocol)이란
 
 - IP 주소 및 기타 통신 매개변수를 네트워크에 연결된 장치에 자동으로 할당
 - 무선으로 연결된 경우 DHCP를 많이 사용
@@ -28,13 +28,11 @@ tags:
     - 서버 실행
     
 
-## 라우터 ↔ 서버 간 사용
-
 라우터와 서버 간에서는 DHCP를 절대 사용하지 않는다. 라우터와 서버 사이 스위치에 여러 엔드 디바이스들이 연결돼 있는 경우, 라우터가 재부팅 되면 내부 IP가 재할당 된다. 이 때 IP 주소가 변경될 수 있으므로 엔드 디바이스의 외부 통신이 불가능해진다. 서버 또한 재부팅 되어 IP 주소가 변경된다면 당연히 서버의 IP를 모르기 때문에 서비스를 받을 수 없는 문제가 발생한다.
 
 즉, DHCP는 엔드 디바이스와 라우터 간 사용되는 것이지, 라우터↔서버 사이에서 쓰는 프로토콜이 아니다. 
 
-## 라우터 IP 설정
+## 라우터 IP 기본 설정 방법
 
 Router> en
 
@@ -123,7 +121,7 @@ DHCP로 정상적으로 IP를 받아오는 걸 볼 수 있다.
 
 PC를 눌러 확인했을 때 정상적으로 DHCP IP를 받아오는 것을 확인할 수 있다.
 
-</br>
+<br/>
 
 # 네트워크 외부에 DHCP 서버를 두는 경우
 
@@ -133,11 +131,11 @@ PC를 눌러 확인했을 때 정상적으로 DHCP IP를 받아오는 것을 확
 
 ![8](https://user-images.githubusercontent.com/63995044/233310310-d7ce8f93-8305-485d-b7be-088cea6037d1.png)
 
-</br>
+<br/>
 
 그리고 DHCP로 잘 받아오는지 PC2에서 확인해보면..!
 
-</br>
+<br/>
 
 ![9](https://user-images.githubusercontent.com/63995044/233310315-d6a6b30c-a105-437b-a089-4db035309612.png)
 
@@ -191,7 +189,7 @@ Password : admin
 
 → Connect
 
-</br>
+<br/>
 
 그럼 PC에서 서버에 접속했을 때 다음과 같이 디바이스들이 뜬다.
 
