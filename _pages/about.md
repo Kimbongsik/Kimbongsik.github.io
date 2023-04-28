@@ -1,15 +1,19 @@
 ---
 permalink: /about/
 title: "About"
+excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+layouts_gallery:
+  - url: /assets/images/mm-layout-splash.png
+    image_path: /assets/images/mm-layout-splash.png
+    alt: "splash layout example"
+  - url: /assets/images/mm-layout-single-meta.png
+    image_path: /assets/images/mm-layout-single-meta.png
+    alt: "single layout with comments and related posts"
+  - url: /assets/images/mm-layout-archive.png
+    image_path: /assets/images/mm-layout-archive.png
+    alt: "archive layout example"
+last_modified_at: 2023-04-28T10:23:16-04:00
 toc: true
-toc_sticky: true
-toc_label: "about me"
 ---
 
-![logo](https://user-images.githubusercontent.com/63995044/219650318-2e172e35-e020-4dc0-8ba3-3da6b4a6df6a.png)
-
-# About me
-
-* 인간이 이루어 낸 기술에 매력을 느끼는 공학도입니다
-* 향후 추가 작성 예정
-* 해당 md 파일은 테스트용입니다
+야호
