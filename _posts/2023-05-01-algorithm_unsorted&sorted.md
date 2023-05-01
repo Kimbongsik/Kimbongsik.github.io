@@ -145,6 +145,8 @@ void UnsortedType::GetNextItem(ItemType& item){
 
 ```
 
+</br>
+
 # Sorted List(정렬 리스트)
 
 ## 정의
