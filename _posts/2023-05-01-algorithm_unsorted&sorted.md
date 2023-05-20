@@ -1,5 +1,5 @@
 ---
-title: "[C/C++][자료구조] Unsorted & Sorted List(비정렬&정렬 리스트) 구현 방법"
+title: "[자료구조/C++] Unsorted & Sorted List(비정렬&정렬 리스트) 구현 방법"
 last_modified_at: 2023-04-27T16:20:02-05:00
 toc: true
 toc_sticky: true
