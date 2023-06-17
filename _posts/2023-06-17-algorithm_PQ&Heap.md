@@ -40,7 +40,6 @@ tags:
 
 ![1](https://github.com/Kimbongsik/Kimbongsik.github.io/assets/63995044/c58c643a-4720-4b4b-9265-2ad3d271f3a4)
 
-![2](https://github.com/Kimbongsik/Kimbongsik.github.io/assets/63995044/8f0bb437-e881-4a99-b290-2db56b4e3a7c)
 
 트리 순서대로, 루트는 리스트 0번에 저장.
 
@@ -78,7 +77,7 @@ sturcture HeapType{
 - **ReheapDown**
 - 사용하는 경우: 루트가 자식 노드보다 값이 작음
 
-![3](https://github.com/Kimbongsik/Kimbongsik.github.io/assets/63995044/ea4484ce-a415-4ef6-a69e-b98484cb16fe)
+![2](https://github.com/Kimbongsik/Kimbongsik.github.io/assets/63995044/8f0bb437-e881-4a99-b290-2db56b4e3a7c)
 
 위 그림의 경우, 맨 위 트리(E,H,I)가 힙 구조가 깨졌다. 이 때 다시 힙 구조를 만들어주기 위해서는, E의 자식 노드 중 가장 큰 노드와 바꾸어 줘야 한다. 
 
@@ -89,7 +88,7 @@ sturcture HeapType{
 - **ReheapUp**
 - 사용하는 경우: bottom(마지막 레벨의 leftmost 노드)이 루트보다 값이 큼
 
-![4](https://github.com/Kimbongsik/Kimbongsik.github.io/assets/63995044/b67970d9-b6ef-4020-b521-db296ab9e766)
+![3](https://github.com/Kimbongsik/Kimbongsik.github.io/assets/63995044/ea4484ce-a415-4ef6-a69e-b98484cb16fe)
 
 이번에는 최하단 노드의 가장 오른쪽 노드가 힙의 조건을 만족하지 않는 경우, 노드를 위로 올려서 힙의 조건을 만족시켜준다. 이를 ReheapUp이라고 한다. 해당 그림에서는 K가 새로 들어왔을 때, 힙에서 가장 큰 노드이므로 root까지 올려주는 작업을 수행하고 있다.
 
@@ -232,4 +231,4 @@ void PQType<ItemType>::Enqueue(ItemType newItem){
 
 # 시간 복잡도 비교
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ce55626-0928-4847-8c71-b7e964d17e41/Untitled.png)
+![4](https://github.com/Kimbongsik/Kimbongsik.github.io/assets/63995044/b67970d9-b6ef-4020-b521-db296ab9e766)
