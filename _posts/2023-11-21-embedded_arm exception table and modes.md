@@ -11,11 +11,12 @@ tags:
 # [임베디드] ARM 프로세서 Mode & Vector Table
 
 <aside>
-💡 본 글은 책 <임베디드 레시피> by 히언 을 참고하여 작성된 글입니다.
+💡 본 글은 책 "임베디드 레시피" by 히언 을 참고하여 작성된 글입니다.
 
 </aside>
 
 <br>
+
 # ARM Exceptions and Modes
 
 - ARM은 시스템 접근 용도에 따른 7개의 모드를 제공
