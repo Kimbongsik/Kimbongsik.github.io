@@ -8,7 +8,6 @@ tags:
   - embedded
   - ARM
 ---
-# [임베디드] ARM 프로세서 Mode & Vector Table
 
 <aside>
 💡 본 글은 책 "임베디드 레시피" by 히언 을 참고하여 작성된 글입니다.
