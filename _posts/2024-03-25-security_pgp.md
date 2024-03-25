@@ -1,6 +1,6 @@
 ---
 title: "[보안] PGP(Pretty Good Privacy)"
-last_modified_at: 2024-03-24T16:20:02-05:00
+last_modified_at: 2024-03-25T16:20:02-05:00
 toc: true
 toc_sticky: true
 toc_label: "목차"
