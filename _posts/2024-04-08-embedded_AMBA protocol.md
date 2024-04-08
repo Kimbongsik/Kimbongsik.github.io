@@ -73,11 +73,11 @@ Master와 Slave는 최대 16개까지 사용할 수 있다.
     - 데이터 전송
 
 
+</br>
 
-
+---
 
 참고 자료
 
-책, 저자 히언, <임베디드 레시피>
+책, 저자 히언, "임베디드 레시피" (https://recipes.tistory.com/312)
 
-https://recipes.tistory.com/312
