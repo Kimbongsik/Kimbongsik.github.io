@@ -5,11 +5,9 @@ toc: true
 toc_sticky: true
 toc_label: "목차"
 categories:
-  - cs
   - embedded
 
 tags:
-  - cs
   - embedded
 ---
 임베디드 개발할 때 참 많이 쓰는 것 중 하나가 시리얼 통신, UART 통신이다.
