@@ -5,11 +5,9 @@ toc: true
 toc_sticky: true
 toc_label: "목차"
 categories:
-  - cs
   - embedded
 
 tags:
-  - cs
   - embedded
 ---
 지난 번 UART 통신 포스팅에 이어, 이번에는 SPI 통신 방식에 대해 정리해본다.
