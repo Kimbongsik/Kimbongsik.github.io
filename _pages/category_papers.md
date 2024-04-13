@@ -10,7 +10,7 @@ taxonomy: papers
 계속 업데이트 예정
 
 
-- Drone Forensic
+- **Drone Forensic**
     
     [DROP your drone: Forensic analysis of the DJI Phantom 3(내용 이해)]
     
@@ -21,7 +21,7 @@ taxonomy: papers
     [Drone GPS data analysis for flight path reconstruction: A study on DJI, Parrot&Yuneec make drones]
     
 
-- CPU Virtualization(Rehosting, Emul/Simulation)
+- **CPU Virtualization(Rehosting, Emul/Simulation)**
     
     [From Library Portability to Para-rehosting: Natively Executing Microcontroller Software on Commodity Hardware]
     
@@ -39,7 +39,7 @@ taxonomy: papers
     
     
 
-- Firmware Analysis
+- **Firmware Analysis**
     
     [FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules]
     
@@ -50,7 +50,7 @@ taxonomy: papers
     [Forming Faster Firmware Fuzzers]
     
 
-- IoT / Embedded
+- **IoT / Embedded**
     
     [Software-Defined Hardware-Assisted Isolation for Trusted Next-Generation IoT Systems]
     
@@ -65,14 +65,14 @@ taxonomy: papers
     [Operating Systems for Low-End Devices in the Internet of Things: A Survey]
     
 
-- Defence(Etc)
+- **Defence(Etc)**
     
     [Control-Flow Integrity Principles, Implementations, and Applications]
 
     [Silhouette: Efficient Protected Shadow Stacks for Embedded Systems]
     
 
-- Memory Protection
+- **Memory Protection**
     
     [Tunable Memory Protection for Secure Neural Processing Units]
     
@@ -82,6 +82,6 @@ taxonomy: papers
     
     [An REE-independent Approach to Identify Callers of TEEs in TrustZone-enabled Cortex-M Devices]
     
-- Memory Compartment
+- **Memory Compartment**
     
     [Securing Real-Time Microcontroller Systems through Customized Memory View Switching]
