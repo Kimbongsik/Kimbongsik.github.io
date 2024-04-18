@@ -47,9 +47,17 @@ var socket = net.connect({port:8000, host:'localhost'}, function(){
      console.log(err);
  });
  ```
- 
- * 서버.js
- ```javascript
+
+
+
+
+* 서버.js
+
+
+
+
+
+```javascript
 var net = require('net');
 
 var server = net. createServer(function(socket){
@@ -73,3 +81,4 @@ server.on('error', function(err){
 server.listen(5000, function(){
    console.log('listening on 8000..');
 });
+ ```
