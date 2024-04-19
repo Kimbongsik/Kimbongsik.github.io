@@ -1,12 +1,15 @@
-# 운영체제 서비스
+---
+title: "[운영체제] 운영체제의 역할"
+last_modified_at: 2024-04-19T16:20:02-05:00
+toc: true
+toc_sticky: true
+toc_label: "목차"
+categories:
+  - cs
 
-> Process management
-> Main memory management
-> File management
-> Secondary storage management
-> I/O management
->    > System Call
----------------------------------
+tags:
+  - cs
+---
 
 모든 app 프로그램들은 자원을 사용하므로, 이러한 자원의 효율적 분배를 위해 os가 존재한다.  
 os에는 다양한 서비스들이 정부 부처처럼 존재한다.  
