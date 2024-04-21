@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] OS 이중모드 & 하드웨어 보호"
+title: "[운영체제] [Basic] OS 이중모드 & 하드웨어 보호"
 last_modified_at: 2024-04-20T16:20:02-05:00
 toc: true
 toc_sticky: true

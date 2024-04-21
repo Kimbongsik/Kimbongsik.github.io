@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] 운영체제의 역할"
+title: "[운영체제] [Basic] 운영체제의 역할"
 last_modified_at: 2024-04-19T16:20:02-05:00
 toc: true
 toc_sticky: true
