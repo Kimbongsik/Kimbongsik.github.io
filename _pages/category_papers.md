@@ -37,7 +37,7 @@ taxonomy: papers
     
     [Greenhouse: Singlye-Service Rehosting of Linux-Based Firmware Binaries in User-Space Emaultion]
     
-    
+    [A Freind's Eye is A Good Mirror: Synthesizing MCU Peripheral Models from Peripheral Drivers]
 
 - **Firmware Analysis**
     
@@ -85,3 +85,8 @@ taxonomy: papers
 - **Memory Compartment**
     
     [Securing Real-Time Microcontroller Systems through Customized Memory View Switching]
+
+    [Protecting Bare-metal Embedded Systems With Privilege Overlays]
+
+    [EC:Embedded Systems Compartmentalization via Intra-Kernel Isolation]
+
