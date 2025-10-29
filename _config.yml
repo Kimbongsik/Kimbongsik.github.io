@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "굴러가는 바퀴(Developer Blog)"
 title_separator          : "-"
-subtitle                 : "임베디드 개발 및 보안" # site tagline that appears below site title in masthead
-name                     : "유오알비(U-ORB)"
+subtitle                 : "임베디드 보안 개발자" # site tagline that appears below site title in masthead
+name                     : "일찬(ilchan)"
 description              : "바퀴는 오늘도 열심히 굴러갑니다 (2023년 1월~ 꾸준히 업로드 중)"
 url                      : "https://kimbongsik.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,7 +105,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "유오알비(U-ORB)"
+  name             : "일찬(ilchan)"
   avatar           : "/assets/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "오늘도 바퀴는 열심히 굴러갑니다" # "I am an **amazing** person."
   location         : "Republic of Korea"
