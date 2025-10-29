@@ -17,7 +17,7 @@ sidebar-category:
       - title: "> 임베디드"
         url: "/categories/embedded/"
       - title: "> 전기/전자"
-        url: "/categories/ee"
+        url: "/categories/ee/"
       - title: "> 리눅스(linux)"
         url: "/categories/linux/"
       - title: "> CS(운영체제, 컴퓨터 구조 등)"
