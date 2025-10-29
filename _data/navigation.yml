@@ -20,6 +20,8 @@ sidebar-category:
         url: "/categories/C_C++/"
       - title: "> 임베디드"
         url: "/categories/embedded/"
+      - title: "> 전기/전자"
+        url: "/categories/elec"
       - title: "> 리눅스(linux)"
         url: "/categories/linux/"
       - title: "> CS(운영체제, 컴퓨터 구조 등)"
@@ -36,4 +38,6 @@ sidebar-category:
         url: "/categories/network/"
       - title: "> 컴파일러"
         url: "/categories/compiler"
+
+
       
