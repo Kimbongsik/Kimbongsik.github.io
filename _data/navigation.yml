@@ -14,20 +14,18 @@ main:
 sidebar-category:
   - title: "Category"
     children:
-      - title: "> 논문"
-        url: "/categories/papers/"
-      - title: "> C/C++"
-        url: "/categories/C_C++/"
       - title: "> 임베디드"
         url: "/categories/embedded/"
       - title: "> 전기/전자"
-        url: "/categories/elec"
+        url: "/categories/ee"
       - title: "> 리눅스(linux)"
         url: "/categories/linux/"
       - title: "> CS(운영체제, 컴퓨터 구조 등)"
         url: "/categories/cs/"
       - title: "> 알고리즘"
         url: "/categories/algorithm/"
+      - title: "> C/C++"
+        url: "/categories/C_C++/"
       - title: "> 보안"
         url: "/categories/security/"
       - title: "> 자율주행"
@@ -38,6 +36,8 @@ sidebar-category:
         url: "/categories/network/"
       - title: "> 컴파일러"
         url: "/categories/compiler"
+      - title: "> 논문 리뷰"
+        url: "/categories/papers/"
 
 
       
