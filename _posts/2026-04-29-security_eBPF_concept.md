@@ -18,13 +18,13 @@ tags:
 - eBPF 프로그램은 이벤트 기반으로 동작하며, 커널 또는 어플리케이션이 특정 훅 지점을 지나갈 때 실행됨
 - 사전 정의 된 훅은 시스템 콜, 함수 진입 및 종료, 커널 tracepoint, 네트워크 이벤트 등이 포함될 수 있음
 
-![이벤트 훅을 사전 정의 해두었을 경우](https://github.com/user-attachments/assets/3252098b-3774-4414-b7b3-fa903d07c41b)
+![이벤트 훅을 사전 정의 해두었을 경우](https://github.com/user-attachments/assets/88f27584-249e-4005-979d-1fb90f001f68)
 
 이벤트 훅을 사전 정의 해두었을 경우
 
 - 또는, kprobe 및 uprobe를 생성하여 커널 또는 유저 어플리케이션에 eBPF 프로그램을 부착할 수 있음
 
-![커널 요소에 eBPF 프로그램을 부착한 경우](https://github.com/user-attachments/assets/4d302def-d5f2-4e00-b133-04da729d59e3)
+![커널 요소에 eBPF 프로그램을 부착한 경우](https://github.com/user-attachments/assets/84193a0b-57e4-45c4-8ab7-f58de9886f76)
 
 커널 요소에 eBPF 프로그램을 부착한 경우
 
@@ -34,7 +34,7 @@ tags:
     - 사용자 의도에 따라 eBPF 프로그램을 자동으로 구현하는 기능을 제공함
 - 고수준 추상화를 사용할 수 없는 경우, eBPF 프로그램을 직접 작성해야 하며, LLVM Compiler를 통해 Bytecode 형태로 작성함
 
-![eBPF 동작 구조]("https://github.com/user-attachments/assets/6e769398-038c-43d8-bcbb-13c453e96699")
+![eBPF 동작 구조]("https://github.com/user-attachments/assets/1a37509a-8455-4f35-a613-8930c5980ee9")
 
 # 3. 동작 시퀀스
 
