@@ -1,13 +1,14 @@
 ---
-title: "[보안] 한 눈에 보는 eBPF"
+title: "[리눅스/linux] 한 눈에 보는 eBPF"
 last_modified_at: 2026-04-29T16:20:02-05:00
 toc: true
 toc_sticky: true
 toc_label: "목차"
 categories:
-  - security
+  - linux
 
 tags:
+  - linux
   - security
 ---
 
